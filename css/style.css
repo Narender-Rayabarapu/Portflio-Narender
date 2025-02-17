@@ -97,7 +97,8 @@ body{
 /* BACKGROUND CHANGE SEC START */
 .bg-1{
     position: fixed;
-    background: #000;
+    background-image:url("bg-1.gif");
+    background-size:cover;
     width: 100vw;
     height: 100vh;
     top: 0;
@@ -109,6 +110,7 @@ body{
 .bg-2{
     position: fixed;
     background: #000  url(bg-1.gif) no-repeat center center;
+    
     background-size: 50%;
     width: 100vw;
     height: 100vh;
@@ -117,7 +119,7 @@ body{
 }
 .bg-3{
     position: fixed;
-    background: #000  url(bg-2.gif) no-repeat center center;
+    background: #000 no-repeat center center;
     background-size: 100% 100%;
     width: 100vw;
     height: 100vh;
