@@ -97,7 +97,7 @@ body{
 /* BACKGROUND CHANGE SEC START */
 .bg-1{
     position: fixed;
-    background-image:url("bg-2.gif");
+    background-image:url(bg-2.gif);
     background-size:cover;
     width: 100vw;
     height: 100vh;
